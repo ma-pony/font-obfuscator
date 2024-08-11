@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "font-obfuscator"
-version = "0.1.2"
-description = ""
+version = "0.1.3"
+description = "字体反爬、字体混淆工具是一个用于混淆字体文件的工具，可以将字体文件中的字形进行混淆，从而防止字体文件被直接提取出来。Font Obfuscator is an open-source Python library designed to prevent web scraping by obfuscating the character-to-glyph mapping in font files."
 authors = ["Pony.Ma <mtf201013@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/ma-pony/font-obfuscator"
