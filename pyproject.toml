@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "font-obfuscator"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Pony.Ma <mtf201013@gmail.com>"]
 readme = "README.md"
