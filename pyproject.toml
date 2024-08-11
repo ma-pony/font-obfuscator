@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "font-obfuscator"
+version = "0.1.0"
+description = ""
+authors = ["Pony.Ma <mtf201013@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fonttools = {extras = ["lxml", "ufo", "unicode", "woff"], version = "^4.53.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
