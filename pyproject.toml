@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "font-obfuscator"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Pony.Ma <mtf201013@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/ma-pony/font-obfuscator"
+homepage = "https://github.com/ma-pony/font-obfuscator"
+packages = [{ include = "font_obfuscator" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
