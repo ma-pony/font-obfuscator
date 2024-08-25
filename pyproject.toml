@@ -11,6 +11,7 @@ packages = [{ include = "font_obfuscator" }]
 [tool.poetry.dependencies]
 python = "^3.10"
 fonttools = {extras = ["lxml", "ufo", "unicode", "woff"], version = "^4.53.1"}
+pillow = "^10.0.0"
 
 
 [build-system]
